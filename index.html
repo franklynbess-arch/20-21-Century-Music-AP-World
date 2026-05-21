@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>20th & 21st Century Music</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#111;
+      color:white;
+      line-height:1.7;
+    }
+
+    header{
+      height:100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+        url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1400&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:4rem;
+      margin-bottom:20px;
+      color:#ffd166;
+    }
+
+    header p{
+      max-width:800px;
+      font-size:1.3rem;
+    }
+
+    nav{
+      position:sticky;
+      top:0;
+      background:#1b1b1b;
+      padding:15px;
+      z-index:1000;
+      text-align:center;
+      border-bottom:2px solid #ffd166;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ffd166;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    h2{
+      color:#ffd166;
+      margin-bottom:25px;
+      font-size:2.5rem;
+    }
+
+    .card{
+      background:#1d1d1d;
+      padding:25px;
+      border-radius:15px;
+      margin-bottom:25px;
+      box-shadow:0 0 15px rgba(0,0,0,0.4);
+    }
+
+    .timeline{
+      border-left:4px solid #ffd166;
+      padding-left:25px;
+      margin-top:20px;
+    }
+
+    .timeline-item{
+      margin-bottom:35px;
+    }
+
+    .timeline-item h3{
+      color:#ffb703;
+      margin-bottom:10px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+      gap:20px;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#1b1b1b;
+      border-top:2px solid #ffd166;
+    }
+
+    img{
+      width:100%;
+      border-radius:15px;
+      margin-top:20px;
+    }
+
+    .quote{
+      font-style:italic;
+      color:#ddd;
+      margin-top:15px;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:2.5rem;
+      }
+
+      header p{
+        font-size:1rem;
+      }
+
+      section{
+        padding:60px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>20th & 21st Century Music</h1>
+    <p>
+      Exploring the origins, evolution, and global impact of music from 1900 to the present.
+      From jazz and rock to hip-hop and streaming culture, music has shaped societies,
+      identities, and history around the world.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#origins">Origins</a>
+    <a href="#change">Change Over Time</a>
+    <a href="#impact">Impact</a>
+    <a href="#thinking">Historical Thinking Skills</a>
+  </nav>
+
+  <section id="origins">
+    <h2>Origins of Modern Music</h2>
+
+    <div class="card">
+      <p>
+        20th century music began during a period of industrialization, urbanization,
+        and cultural exchange. New technologies like the radio, phonograph, and
+        recording studios allowed music to spread faster than ever before.
+      </p>
+
+      <p>
+        Jazz emerged in the early 1900s in New Orleans, blending African rhythms,
+        blues, and European musical traditions. Later, genres like rock, pop,
+        electronic music, and hip-hop developed from earlier styles and reflected
+        social and political changes happening across the world.
+      </p>
+
+      <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop" alt="Music instruments">
+    </div>
+  </section>
+
+  <section id="change">
+    <h2>Change Over Time</h2>
+
+    <div class="card">
+      <p>
+        Music evolved dramatically between 1900 and today because of technology,
+        globalization, social movements, and cultural blending.
+      </p>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <h3>1. The Rise of Jazz (1920s)</h3>
+          <p>
+            Jazz became one of the first globally influential modern genres.
+            It symbolized freedom, creativity, and the cultural influence of African Americans
+            during the Harlem Renaissance.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2. Rock & Roll Revolution (1950s–1960s)</h3>
+          <p>
+            Artists like Elvis Presley and bands like The Beatles transformed youth culture.
+            Rock music reflected rebellion, changing social values, and postwar globalization.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>3. Hip-Hop & Digital Music (1980s–2000s)</h3>
+          <p>
+            Hip-hop began in New York City and became a global movement connected to identity,
+            politics, and storytelling. At the same time, the internet and streaming services
+            completely changed how music is produced and shared.
+          </p>
+        </div>
+
+      </div>
+
+      <p class="quote">
+        “Music constantly changes because society constantly changes.”
+      </p>
+    </div>
+  </section>
+
+  <section id="impact">
+    <h2>Why Music Matters</h2>
+
+    <div class="card">
+      <h3>Global Impact</h3>
+      <p>
+        Music connects cultures across borders and languages. Genres like jazz,
+        reggae, K-pop, and hip-hop spread internationally and influenced fashion,
+        politics, and identity worldwide.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Personal Impact</h3>
+      <p>
+        Music affects emotions, memory, and identity. People use music for celebration,
+        protest, relaxation, motivation, and self-expression.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>How to Convince Someone It Matters</h3>
+      <p>
+        Music matters because it reflects history and human experiences.
+        Protest songs supported civil rights movements, war-time music united countries,
+        and modern music gives people a voice online today.
+      </p>
+
+      <p>
+        Without music, culture and history would lose one of their strongest forms
+        of emotional expression.
+      </p>
+    </div>
+  </section>
+
+  <section id="thinking">
+    <h2>Historical Thinking Skills</h2>
+
+    <div class="skills">
+
+      <div class="card">
+        <h3>Cause & Effect</h3>
+        <p>
+          Technological inventions like radios, CDs, and streaming platforms caused
+          major changes in music distribution. As a result, music became more global,
+          accessible, and profitable.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Comparison</h3>
+        <p>
+          Jazz in the 1920s can be compared to hip-hop today. Both began as forms
+          of expression for marginalized communities and later became global genres
+          that influenced fashion, language, and politics.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>AP World Connection</h3>
+        <p>
+          This topic connects to globalization because music spread rapidly through
+          trade, migration, media, and technology. It also connects to cultural
+          diffusion, industrialization, and technological innovation studied in AP World History.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>20th & 21st Century Music Website Project | 1900–Present</p>
+  </footer>
+
+</body>
+</html>
